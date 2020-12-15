@@ -1,4 +1,8 @@
 //Jenkins file only to tutorial example
+/*
+@Author
+Galam Sivakrishna
+*/
 pipeline {
   agent any
     
@@ -8,7 +12,7 @@ pipeline {
         
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/gustavoapolinario/node-todo-frontend'
+        git 'https://github.com/galamsiva2020/node-todo-frontend.git'
       }
     }
         
